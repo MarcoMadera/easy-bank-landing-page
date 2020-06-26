@@ -1,0 +1,19 @@
+.navbar__container{
+  position: relative;
+  overflow: hidden; 
+  padding: 20px;
+  background-color: var(--White);
+  z-index: 1;
+}
+
+.navbar__container__logo{
+  float: left
+}
+
+.navbar__container__pages{
+  display: none;
+}
+
+.navbar__container__hamburgerMenu{
+  float: right;
+}
