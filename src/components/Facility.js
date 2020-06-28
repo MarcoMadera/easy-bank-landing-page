@@ -6,7 +6,7 @@ const Facility = (props) => {
     <div className="Facility">
       <div className="facility__container">
         <img src={props.img} alt={props.name} />
-        <h3>{props.name}</h3>
+        <h3 className="facility__container__title">{props.name}</h3>
         <p>{props.desc}</p>
       </div>
     </div>

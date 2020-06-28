@@ -1,21 +1,31 @@
 .Article{
   display: block;
   position: relative;
-  margin: 10px 0px;
-}
-
-.article__container{
+  margin: 0px 0px 24px 0px;
+  background-color: var(--White);
   border-radius: 6px;
-  border: 1px solid black;
 }
 
-.article__container__cover img{
+.article__cover{
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 6px 6px 0 0;
 }
 
-.article__container__data{
-  padding: 20px;
+.article__data{
+  padding: 20px 31px 41px 31px;
+}
+
+.article__data__author, .article__data__title, .article__data__excerpt{
+  text-align: left;
+}
+
+.article__data__title{
+  margin: 9px 0
+}
+
+.article__data__excerpt{
+  font-size: 12.6px;
+  line-height: 1.51;
 }

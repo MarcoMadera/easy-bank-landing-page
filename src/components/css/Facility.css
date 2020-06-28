@@ -1,3 +1,9 @@
 .facility__container{
   text-align: center;
+  padding: 15px 0;
+}
+
+.facility__container__title{
+  margin-top: 22px;
+  margin-bottom: 17px;
 }

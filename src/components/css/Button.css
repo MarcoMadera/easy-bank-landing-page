@@ -1,17 +1,15 @@
 .Button{
-  text-align: center;
+	text-align: center;
 }
 
 .button__container {
 	background:linear-gradient(to right, var(--Lime-Green) 5%, var(--Bright-Cyan) 100%);
 	background-color:var(--Lime-Green);
-	border-radius:30px;
+	border-radius:42px;
 	display:inline-block;
 	cursor:pointer;
 	color:var(--White);
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 60px;
+	padding:14px 34px;
 	text-decoration:none;
 }
 .button__container:hover {

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.block-overflow{
+  margin: 0; height: 100%; overflow: hidden
+}
+
 :root{
   --Dark-Blue: hsl(233, 26%, 24%);
   --Lime-Green: hsl(136, 65%, 51%);
@@ -21,19 +25,50 @@ h1,h2,h3,h4,h5,p,a,li,span,label{
 }
 
 h1{
+  letter-spacing: -0.021em;
   font-size: 2.5rem;
+  color: var(--Dark-Blue);
+  font-weight: 400;
+}
+
+h2{
+  letter-spacing: -0.02em;
+  font-size: 2rem;
+  color: var(--Dark-Blue);
+  font-weight: 400;
+}
+h3{
+  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+  color: var(--Dark-Blue);
+  font-weight: 400;
+}
+
+h4{
+  letter-spacing: -0.02em;
+  font-size: 16px;
   color: var(--Dark-Blue);
   font-weight: 400;
 }
 
 p{
   color: var(--Grayish-Blue);
-  font-size: 18px;
+  font-size: 14.4px;
+  line-height: 1.815;
+  font-weight: 400;
 }
 
 span{
-  color: var(--Grayish-Blue)
+  color: var(--Grayish-Blue);
+  font-size: 9.5px;
 }
+
+a{
+  color: var(--Grayish-Blue);
+  font-size: 14px;
+  font-weight: 700;
+}
+
 
 li{
   list-style: none;

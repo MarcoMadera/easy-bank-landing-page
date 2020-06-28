@@ -1,14 +1,22 @@
-
+.Hero{
+  background: var(--Very-Light-Gray);
+  padding-bottom: 88px;
+}
 
 .hero__container__bg{
-  text-align: center;
-  height: 300px;
   background: url('../../images/image-mockups.png'), url('../../images/bg-intro-mobile.svg');
-  background-position: center bottom, center;
+  background-position-x: center;
+  background-position-y: -122px, -64px;
+  height: 321px;
   background-repeat: no-repeat;
-  background-size: 345px , cover;
+  background-size: 345px, cover;
+  max-height: max-content;
 }
 
 .hero__container__title{
-  padding: 0 30px 0 30px;
+  margin: 1px 30px 0px;
+}
+
+.hero__container__desc{
+  margin: 24px 30px;
 }

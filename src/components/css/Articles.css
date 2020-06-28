@@ -1,0 +1,8 @@
+.Articles{
+  padding: 56px 24px 64px 24px;
+  background: var(--Very-Light-Gray);
+}
+
+.Articles__title{
+  padding: 32px 0 32px 0;
+}

@@ -1,4 +1,12 @@
 .Contents{
-  padding: 0 30px;
-  background: var(--Very-Light-Gray);   
+  padding: 64px 26px;
+  background: var(--Light-Grayish-Blue);   
+}
+
+.contents__desc{
+  margin: 15px 0;
+}
+
+.contents__facilities{
+  margin-top: 41px;
 }

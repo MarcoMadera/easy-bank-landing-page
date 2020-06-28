@@ -15,5 +15,6 @@
 }
 
 .navbar__container__hamburgerMenu{
+  cursor: pointer;
   float: right;
 }
