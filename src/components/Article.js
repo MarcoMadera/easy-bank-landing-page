@@ -7,7 +7,9 @@ const Article = (props) => {
       <img className="article__cover" src={props.cover} alt={props.title} />
       <div className="article__data">
         <span className="article__data__author">By {props.author}</span>
-        <h4 className="article__data__title">{props.title}</h4>
+        <a href={`./#${props.title}`}>
+          <h4 className="article__data__title">{props.title}</h4>
+        </a>
         <p className="article__data__excerpt">{props.excerpt}</p>
       </div>
     </div>

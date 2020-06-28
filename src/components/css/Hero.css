@@ -20,3 +20,48 @@
 .hero__container__desc{
   margin: 24px 30px;
 }
+
+@media screen and (min-width: 1240px) {
+  .hero__container{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    
+  }
+
+  .hero__container div:nth-of-type(1){
+    order: 2;
+  }
+
+  .hero__container div:nth-of-type(2){
+    order: 1;
+  }
+
+  .hero__container__title{
+    margin: 180px 24px 0px 160px;
+    text-align: left;
+  }
+
+  .hero__container__desc{
+    margin: 14px 24px 30px 160px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .hero__container .Button{
+    margin: 24px 160px;
+    text-align: left;
+  }
+
+  .hero__container__bg{
+    position: relative;
+    z-index: 100;
+    background: url('../../images/image-mockups.png'), url('../../images/bg-intro-desktop.svg');
+    background-position-x: 160px, -20px;
+    background-position-y: -122px, -250px;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: 770px, 1200px;
+    max-height: max-content;
+  }
+}

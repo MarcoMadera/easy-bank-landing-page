@@ -1,7 +1,6 @@
 import React from "react";
 import "./css/Contents.css";
 import Facility from "./Facility";
-
 import onlineBankingImg from "../images/icon-online.svg";
 import simpleBudgetingImg from "../images/icon-budgeting.svg";
 import fastOnboardingImg from "../images/icon-onboarding.svg";
@@ -25,7 +24,7 @@ const Contents = () => {
         <Facility
           name="Simple Budgeting"
           desc="See exactly where your money goes each month. Receive notifications when you’re 
-  close to your hitting limits."
+  close to hitting your limits."
           img={simpleBudgetingImg}
         />
         <Facility

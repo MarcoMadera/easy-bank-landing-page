@@ -13,7 +13,8 @@ const App = () => {
   const closeModal = () => setShow(false);
   if (show) {
     document.body.classList.add("block-overflow");
-  } else {
+  }
+  if (!show) {
     document.body.classList.remove("block-overflow");
   }
   return (

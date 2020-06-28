@@ -25,7 +25,22 @@
   margin: 9px 0
 }
 
+.article__data__title:hover{
+  color: var(--Lime-Green);
+  margin: 9px 0
+}
+
 .article__data__excerpt{
   font-size: 12.6px;
   line-height: 1.51;
+}
+
+@media screen and (min-width: 1240px){
+  .Article{
+    margin: 0 15px;
+  }
+
+  .article__data{
+    padding: 10px 24px 20px 24px;
+  }
 }

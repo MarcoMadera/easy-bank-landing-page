@@ -67,10 +67,33 @@ a{
   color: var(--Grayish-Blue);
   font-size: 14px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 
 li{
   list-style: none;
   color: var(--White);
+}
+
+@media screen and (min-width: 1240px){
+  h1{
+    font-size: 3.5rem;
+    color: black;
+  }
+  h2{
+    font-size: 2.5rem;
+    color: black;
+  }
+  h3{
+    font-size: 1.5rem;
+    color: black;
+  }
+  h4{
+    font-size: 16.8px;
+    color: black;
+  }
+  p{
+    font-size: 1.1rem;
+  }
 }

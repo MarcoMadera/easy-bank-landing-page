@@ -7,3 +7,21 @@
   margin-top: 22px;
   margin-bottom: 17px;
 }
+
+@media screen and (min-width: 1240px){
+  .facility__container, .facility__container__title, .facility__container p{
+    text-align: left;
+  }
+  .facility__container{
+    margin: 15px;
+    padding: 0px;
+  }
+  .facility__container p{
+    font-size: 0.977rem;
+    width: fit-content;
+  }
+  .facility__container__title{
+    margin-top: 30px;
+    margin-bottom: 24px;
+  }
+}

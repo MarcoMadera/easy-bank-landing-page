@@ -6,3 +6,24 @@
 .Articles__title{
   padding: 32px 0 32px 0;
 }
+
+@media screen and (min-width: 1240px){
+  .Articles{
+    padding: 56px 0px 84px;
+  }
+
+  .Articles__container{
+    margin: 0 160px;
+  }
+
+  .Articles__title{
+    text-align: left;
+    padding-bottom: 50px;
+  }
+  
+  .Articles__article{
+    margin: 0 -15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
